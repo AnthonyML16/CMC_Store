@@ -1,7 +1,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 :root{
-    --main-color: #000;
+    --main-color: #DC2D50;
+    --second-color: #28C3DC;
+    --third-color: #FFEB7D;
+
+    --white-color: #fff;
+    --black-color: #000;
 
     --big-font: 4rem;
     --medium-font: 3rem;
@@ -40,7 +45,7 @@ img{
 .logo{
     display: flex;
     align-items: center;
-    color: crimson;
+    color: var(--main-color);
 }
 .logo img{
     height: 50px;
@@ -56,7 +61,7 @@ img{
 .navbar a{
     font-size: 1rem;
     font-weight: 500;
-    color: crimson;
+    color: var(--main-color);
 }
 
 /* Inicio */
@@ -78,7 +83,7 @@ img{
 }
 .btn{
     display: inline-block;
-    background-color: aquamarine;
+    background-color: var(--second-color);
     padding: 10px 20px;
     border-radius: 0.5rem;
     color: white;
